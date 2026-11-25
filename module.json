@@ -3,7 +3,7 @@
   "name": "module-billing-orders-api",
   "display_name": "Billing Orders API",
   "description": "Sanctum-protected API adapter for Billing Orders.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "category": "presentation",
   "provider": "Liberu\\Billing\\Orders\\Api\\OrdersApiServiceProvider",
   "requires": {
@@ -16,7 +16,12 @@
     }
   },
   "suggests": [],
-  "capabilities": ["billing.orders.api"],
+  "capabilities": [
+    "billing.orders.api"
+  ],
   "default_enabled": true,
-  "features": ["Order collection endpoint", "Checkout creation"]
+  "features": [
+    "Order collection endpoint",
+    "Checkout creation"
+  ]
 }
